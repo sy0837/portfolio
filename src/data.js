@@ -34,13 +34,6 @@ export const Data = [
         certificate: ['Coming Soon'],
         expertise: ['Coming Soon']
     },
-    // {
-    //     id: 6,
-    //     title: 'Soft Skills',
-    //     icon: require('./assets/cloud-computing.svg'),
-    //     certificate: ['----'],
-    //     expertise: ['Coming Soon']
-    // }
 ]
 export const Hobby = [
     {
