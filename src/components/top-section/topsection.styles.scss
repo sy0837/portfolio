@@ -1,0 +1,18 @@
+.top{
+    height: 100vh;
+}
+@media only screen and (width: 1024px ) and (height: 1366px){
+    .top{
+        height: 70vh;
+    }
+}
+@media only screen and (width: 768px ) and (height: 1024px){
+    .top{
+        height: 70vh;
+    }
+}
+@media only screen and (max-width: 899px){
+    .top{
+        height: 85vh;
+    }
+}

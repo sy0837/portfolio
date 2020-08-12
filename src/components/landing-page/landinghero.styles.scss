@@ -1,0 +1,82 @@
+.dp{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: calc(50% - 125px);
+    top: calc(50% - 125px);
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 10px grey);
+    z-index: 10;
+  
+}
+.dev{
+    position: absolute;
+    top: -10%;
+    left: calc(50% + 100px);
+    z-index: 1;
+    animation: slideintop 1.5s ease-in-out;
+}
+@keyframes slideintop{
+    from{
+        transform: translateY(-1300px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes slideinbottom{
+    from{
+        transform: translateY(5300px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.web{
+    position: absolute;
+    top: 500px;
+    left: calc(50% - 250px);
+    z-index: 1;
+    animation: slideinbottom 1s ease-in-out;
+}
+@media only screen and (max-width: 1024px){
+    .web{
+        // top: 400px;
+    }
+}
+@media only screen and (width: 768px ) and (height: 1024px){
+    .dev{
+        width: initial;
+        top: -10%;
+        left: calc(50% + 100px);
+
+    }
+    .web{
+        width: initial;
+        top: 500px;
+        left: calc(50% - 250px);
+    }
+    .dp{
+        width: inherit;
+        height: initial; 
+        top: -10%;
+        left: calc(50% + 100px);
+    }
+}
+@media only screen and (max-width: 899px){
+    .dev{
+        width: 100px;
+        left: calc(50% + 50px);
+
+    }
+    .web{
+        width: 100px;
+        left: calc(50% - 150px);
+    }
+    .dp{
+        width: 200px;
+        height: 200px; 
+        left: 25%;
+        top: calc(50% - 125px);
+    }
+}

@@ -1,0 +1,16 @@
+.skills{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    position: relative;
+    p{
+        font-style: italic;
+    }
+    .skill-list{      
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 70px auto;
+        justify-content: space-between;
+    }
+}
