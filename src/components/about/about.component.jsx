@@ -12,8 +12,8 @@ export const About = () => (
                 <div>
                     <p>
                         According to my insta bio I'm "Just a random guy
-                        submitting theory,practical,viva,lab work, external,
-                        internal,assignment,project"Since-2018.."(Engineer)
+                        submitting theory, practical, viva, lab work, external,
+                         internal, assignment, project"Since-2018.."(Engineer)
                         but under the hood I tend to learn new things and
                         try to find ways to use that knowledge to help others.
                         Recently I have also found my interest in fitness and
